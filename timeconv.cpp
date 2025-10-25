@@ -5,7 +5,7 @@ int main(){
     string pukul;
     cin >> pukul;
     
-    int jam= ((pukul[0]-'0')*10)+(pukul[1]-'0');
+    int jam= ((pukul[0]-48)*10)+(pukul[1]-48);
     
     if(pukul[8]=='A' && jam==12){
         jam=0;
